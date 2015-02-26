@@ -1,0 +1,54 @@
+[submodule "vim/vimfiles/bundle/nerdtree"]
+	path = vim/vimfiles/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/vimfiles/bundle/supertab"]
+	path = vim/vimfiles/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "vim/vimfiles/bundle/vim-fugitive"]
+	path = vim/vimfiles/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/vimfiles/bundle/vim-nerdtree-tabs"]
+	path = vim/vimfiles/bundle/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "vim/vimfiles/bundle/delimitMate"]
+	path = vim/vimfiles/bundle/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+[submodule "vim/vimfiles/bundle/syntastic"]
+	path = vim/vimfiles/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "vim/vimfiles/bundle/auto-pairs"]
+	path = vim/vimfiles/bundle/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "vim/vimfiles/bundle/vim-autoclose"]
+	path = vim/vimfiles/bundle/vim-autoclose
+	url = https://github.com/Townk/vim-autoclose.git
+[submodule "vim/vimfiles/bundle/snipmate.vim"]
+	path = vim/vimfiles/bundle/snipmate.vim
+	url = https://github.com/msanders/snipmate.vim.git
+[submodule "vim/vimfiles/bundle/vim-snipmate"]
+	path = vim/vimfiles/bundle/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate
+[submodule "vim/vimfiles/bundle/tlib_vim"]
+	path = vim/vimfiles/bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "vim/vimfiles/bundle/vim-addon-mw-utils"]
+	path = vim/vimfiles/bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "vim/vimfiles/bundle/vim-snippets"]
+	path = vim/vimfiles/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "vim/vimfiles/bundle/chuck.vim"]
+	path = vim/vimfiles/bundle/chuck.vim
+	url = https://github.com/wilsaj/chuck.vim.git
+[submodule "vim/vimfiles/bundle/tabular"]
+	path = vim/vimfiles/bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "vim/vimfiles/bundle/vim-gradle"]
+	path = vim/vimfiles/bundle/vim-gradle
+	url = https://github.com/tfnico/vim-gradle.git
+[submodule "vim/vimfiles/bundle/javacomplete"]
+	path = vim/vimfiles/bundle/javacomplete
+	url = https://github.com/adragomir/javacomplete.git
+[submodule "vim/vimfiles/bundle/tagbar"]
+	path = vim/vimfiles/bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git

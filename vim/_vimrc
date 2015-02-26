@@ -1,0 +1,69 @@
+﻿set nocompatible
+
+call pathogen#infect()
+
+set backspace=indent,eol,start
+
+set history=1000
+
+set showcmd
+set showmode
+
+set number
+
+set list
+set listchars=tab:>·,trail:·,nbsp:·
+
+set incsearch
+set hlsearch
+
+set wrap
+set linebreak
+
+if v:version >= 703
+	set undodir=~/.vim/undofiles,$HOME\vimfiles\undofiles
+	set undofile
+
+	set colorcolumn=+1
+endif
+
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set autoindent
+
+set foldmethod=indent
+set foldnestmax=3
+set nofoldenable
+
+set wildmode=list:longest
+set wildmode
+set wildignore=*.o,*.obj,*~
+
+set formatoptions-=o
+
+set smartindent
+
+filetype indent on
+filetype plugin on
+
+
+if has("gui_running")
+	" gvim-specific code
+	set guifont=Consolas:h9:cDEFAULT
+	set guioptions-=T " no toolbar
+	colorscheme wombat
+else
+	" console-specific code
+endif
+
+autocmd!
+autocmd GUIEnter * simalt ~x
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
+autocmd FileType c,cpp,java set matchpairs+==:;
+autocmd BufNewFile,BufRead *.gradle set filetype=groovy
+
+inoremap {<CR> {<CR>}<C-o>==<C-o>O
+
+syntax on
