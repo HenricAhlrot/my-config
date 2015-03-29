@@ -17,7 +17,7 @@ set listchars=tab:>·,trail:·,nbsp:·
 set incsearch
 set hlsearch
 
-set wrap
+set wrap!
 set linebreak
 
 if v:version >= 703
