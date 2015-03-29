@@ -21,10 +21,10 @@ set wrap
 set linebreak
 
 if v:version >= 703
-	set undodir=~/.vim/undofiles,$HOME\vimfiles\undofiles
-	set undofile
+    set undodir=~/.vim/undofiles,$HOME\vimfiles\undofiles
+    set undofile
 
-	set colorcolumn=+1
+    set colorcolumn=+1
 endif
 
 set shiftwidth=4
@@ -47,14 +47,13 @@ set smartindent
 filetype indent on
 filetype plugin on
 
-
 if has("gui_running")
-	" gvim-specific code
-	set guifont=Consolas:h9:cDEFAULT
-	set guioptions-=T " no toolbar
-	colorscheme wombat
+    " gvim-specific code
+    set guifont=Consolas:h9:cDEFAULT
+    set guioptions-=T " no toolbar
+    colorscheme wombat
 else
-	" console-specific code
+    " console-specific code
 endif
 
 autocmd!
@@ -67,3 +66,4 @@ autocmd BufNewFile,BufRead *.gradle set filetype=groovy
 inoremap {<CR> {<CR>}<C-o>==<C-o>O
 
 syntax on
+

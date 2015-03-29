@@ -52,3 +52,12 @@
 [submodule "vim/vimfiles/bundle/tagbar"]
 	path = vim/vimfiles/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "vim/vimfiles/bundle/typescript-vim"]
+	path = vim/vimfiles/bundle/typescript-vim
+	url = git://github.com/leafgarland/typescript-vim.git
+[submodule "vim/vimfiles/bundle/vim-misc"]
+	path = vim/vimfiles/bundle/vim-misc
+	url = https://github.com/xolox/vim-misc.git
+[submodule "vim/vimfiles/bundle/vim-session"]
+	path = vim/vimfiles/bundle/vim-session
+	url = https://github.com/xolox/vim-session.git
