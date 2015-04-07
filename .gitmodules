@@ -61,6 +61,6 @@
 [submodule "vim/vimfiles/bundle/vim-session"]
 	path = vim/vimfiles/bundle/vim-session
 	url = https://github.com/xolox/vim-session.git
-[submodule "vim\\vimfiles\\bundle\\vim-scala"]
-	path = vim\\vimfiles\\bundle\\vim-scala
+[submodule "vim/vimfiles/bundle/vim-scala"]
+	path = vim/vimfiles/bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala.git
