@@ -73,3 +73,6 @@
 [submodule "vim/vimfiles/bundle/yats.vim"]
 	path = vim/vimfiles/bundle/yats.vim
 	url = https://github.com/HerringtonDarkholme/yats.vim.git
+[submodule "vim/vimfiles/bundle/grunt.vim"]
+	path = vim/vimfiles/bundle/grunt.vim
+	url = git://github.com/mklabs/grunt.vim.git
