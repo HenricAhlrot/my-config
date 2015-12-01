@@ -76,3 +76,6 @@
 [submodule "vim/vimfiles/bundle/grunt.vim"]
 	path = vim/vimfiles/bundle/grunt.vim
 	url = git://github.com/mklabs/grunt.vim.git
+[submodule "vim/vimfiles/bundle/yays.vim"]
+	path = vim/vimfiles/bundle/yays.vim
+	url = git://github.com/othree/yajs.vim.git
