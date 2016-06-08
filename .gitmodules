@@ -79,3 +79,12 @@
 [submodule "vim/vimfiles/bundle/yays.vim"]
 	path = vim/vimfiles/bundle/yays.vim
 	url = git://github.com/othree/yajs.vim.git
+[submodule "vim/vimfiles/bundle/vim-javascript"]
+	path = vim/vimfiles/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "vim/vimfiles/bundle/vim-pandoc-syntax"]
+	path = vim/vimfiles/bundle/vim-pandoc-syntax
+	url = https://github.com/vim-pandoc/vim-pandoc-syntax.git
+[submodule "vim/vimfiles/bundle/vim-pandoc"]
+	path = vim/vimfiles/bundle/vim-pandoc
+	url = https://github.com/vim-pandoc/vim-pandoc.git
