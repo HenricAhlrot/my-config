@@ -88,3 +88,6 @@
 [submodule "vim/vimfiles/bundle/vim-pandoc"]
 	path = vim/vimfiles/bundle/vim-pandoc
 	url = https://github.com/vim-pandoc/vim-pandoc.git
+[submodule "vim/vimfiles/bundle/vim-javacomplete2"]
+	path = vim/vimfiles/bundle/vim-javacomplete2
+	url = https://github.com/artur-shaik/vim-javacomplete2.git
